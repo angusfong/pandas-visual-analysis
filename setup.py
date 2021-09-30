@@ -24,15 +24,15 @@ with (source_root / "src" / "pandas_visual_analysis" / "version.py").open(
     )
 
 setup(
-    name="pandas-visual-analysis",
+    name="pandas-visual-analysis2",
     version=version,
     packages=find_packages("src"),
     package_dir={"": "src"},
-    url="https://github.com/meffmadd/pandas-visual-analysis",
+    url="https://github.com/angusfong/pandas-visual-analysis",
     license="MIT License",
     author="Matthias Matt",
-    author_email="matthias.matt@student.tuwien.ac.at",
-    description="A package for interactive visual analysis in Jupyter notebooks.",
+    author_email="fongangus@gmail.com",
+    description="forked from https://github.com/meffmadd/pandas-visual-analysis",
     long_description=long_description,
     long_description_content_type="text/x-rst",
     python_requires=">=3.6",
