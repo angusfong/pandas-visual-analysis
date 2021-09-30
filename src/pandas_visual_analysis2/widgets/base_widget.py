@@ -2,9 +2,9 @@ from abc import abstractmethod
 
 import ipywidgets as widgets
 
-from pandas_visual_analysis import DataSource
-from pandas_visual_analysis.utils.config import Config
-from pandas_visual_analysis.utils.validation import validate_data_source
+from pandas_visual_analysis2 import DataSource
+from pandas_visual_analysis2.utils.config import Config
+from pandas_visual_analysis2.utils.validation import validate_data_source
 
 
 class BaseWidget:
@@ -106,7 +106,7 @@ class BaseWidget:
     def on_selection(self, trace, points, state):
         """
         This method implements the behaviour of changes in the selection of this plot.
-        Should set the brushed indices property of :class:`pandas_visual_analysis.data_source.DataSource` in order
+        Should set the brushed indices property of :class:`pandas_visual_analysis2.data_source.DataSource` in order
         to propagate the change.
 
         :param trace: The trace object which triggered the selection.
@@ -119,7 +119,7 @@ class BaseWidget:
     def on_deselection(self, trace, points):
         """
         This method implements the behaviour of changes in the deselection of this plot.
-        Should reset the brushed selection of :class:`pandas_visual_analysis.data_source.DataSource` in order
+        Should reset the brushed selection of :class:`pandas_visual_analysis2.data_source.DataSource` in order
         to propagate the change.
 
         :param trace: The trace object which triggered the deselection.

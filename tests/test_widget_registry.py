@@ -1,8 +1,8 @@
 import pytest
 
-# from pandas_visual_analysis.widgets.base_widget import BaseWidget
-from pandas_visual_analysis import VisualAnalysis
-from pandas_visual_analysis.widgets.registry import WidgetClassRegistry, register_widget
+# from pandas_visual_analysis2.widgets.base_widget import BaseWidget
+from pandas_visual_analysis2 import VisualAnalysis
+from pandas_visual_analysis2.widgets.registry import WidgetClassRegistry, register_widget
 from tests import sample_dataframes
 
 

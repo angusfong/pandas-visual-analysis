@@ -56,7 +56,7 @@ def test_requirements_setuptools_equal():
 
 
 def test_version():
-    from pandas_visual_analysis.version import __version__
+    from pandas_visual_analysis2.version import __version__
 
     assert __version__ is not None
     assert isinstance(__version__, str)

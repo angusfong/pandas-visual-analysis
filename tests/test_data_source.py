@@ -1,8 +1,8 @@
 import pytest
 import pandas as pd
 
-from pandas_visual_analysis import DataSource
-from pandas_visual_analysis.data_source import SelectionType
+from pandas_visual_analysis2 import DataSource
+from pandas_visual_analysis2.data_source import SelectionType
 from tests import sample_dataframes
 
 df_size = 1000

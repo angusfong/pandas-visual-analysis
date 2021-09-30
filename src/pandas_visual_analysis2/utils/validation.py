@@ -1,11 +1,11 @@
 from pandas import DataFrame
 
-from pandas_visual_analysis.utils import hex_to_rgb
-import pandas_visual_analysis  # import this way to prevent circular imports
+from pandas_visual_analysis2.utils import hex_to_rgb
+import pandas_visual_analysis2  # import this way to prevent circular imports
 
 
 def validate_data(data, name="data"):
-    if not isinstance(data, (DataFrame, pandas_visual_analysis.DataSource)):
+    if not isinstance(data, (DataFrame, pandas_visual_analysis2.DataSource)):
         raise TypeError(
             "The %s parameter must be a Pandas DataFrame or a DataSource" % name
         )
@@ -17,7 +17,7 @@ def validate_data_frame(df, name="df"):
 
 
 def validate_data_source(ds, name="ds"):
-    if not isinstance(ds, pandas_visual_analysis.DataSource):
+    if not isinstance(ds, pandas_visual_analysis2.DataSource):
         raise TypeError("The %s parameter must be a DataSource" % name)
 
 

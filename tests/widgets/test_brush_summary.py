@@ -3,9 +3,9 @@ import math
 import pytest
 import ipywidgets
 
-from pandas_visual_analysis import DataSource
-from pandas_visual_analysis.utils.config import Config
-from pandas_visual_analysis.widgets import BrushSummaryWidget
+from pandas_visual_analysis2 import DataSource
+from pandas_visual_analysis2.utils.config import Config
+from pandas_visual_analysis2.widgets import BrushSummaryWidget
 from tests import sample_dataframes
 
 

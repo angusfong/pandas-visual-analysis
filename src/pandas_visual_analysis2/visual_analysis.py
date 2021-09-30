@@ -3,12 +3,12 @@ import warnings
 
 from pandas import DataFrame
 
-from pandas_visual_analysis.data_source import DataSource
-from pandas_visual_analysis.layout import AnalysisLayout
-from pandas_visual_analysis.utils.config import Config
-from pandas_visual_analysis.utils.util import hex_to_rgb
-import pandas_visual_analysis.utils.validation as validate
-from pandas_visual_analysis.widgets import WidgetClassRegistry
+from pandas_visual_analysis2.data_source import DataSource
+from pandas_visual_analysis2.layout import AnalysisLayout
+from pandas_visual_analysis2.utils.config import Config
+from pandas_visual_analysis2.utils.util import hex_to_rgb
+import pandas_visual_analysis2.utils.validation as validate
+from pandas_visual_analysis2.widgets import WidgetClassRegistry
 
 
 class VisualAnalysis:

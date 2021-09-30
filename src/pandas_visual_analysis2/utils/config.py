@@ -1,4 +1,4 @@
-from pandas_visual_analysis.utils import Singleton
+from pandas_visual_analysis2.utils import Singleton
 
 
 class Config(dict, metaclass=Singleton):

@@ -1,9 +1,9 @@
 import pytest
 import ipywidgets as widgets
 
-from pandas_visual_analysis import DataSource
-from pandas_visual_analysis.utils.config import Config
-from pandas_visual_analysis.widgets import BoxPlotWidget
+from pandas_visual_analysis2 import DataSource
+from pandas_visual_analysis2.utils.config import Config
+from pandas_visual_analysis2.widgets import BoxPlotWidget
 from tests import sample_dataframes
 
 

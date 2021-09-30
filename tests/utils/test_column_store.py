@@ -1,6 +1,6 @@
 import pytest
 
-from pandas_visual_analysis.utils.column_store import ColumnIterator, ColumnStore
+from pandas_visual_analysis2.utils.column_store import ColumnIterator, ColumnStore
 from tests import sample_dataframes
 
 

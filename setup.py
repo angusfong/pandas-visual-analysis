@@ -12,7 +12,7 @@ with (source_root / "requirements.txt").open(encoding="utf8") as f:
 
 version = "0.0.4"
 
-with (source_root / "src" / "pandas_visual_analysis" / "version.py").open(
+with (source_root / "src" / "pandas_visual_analysis2" / "version.py").open(
     "w", encoding="utf-8"
 ) as f:
     f.writelines(

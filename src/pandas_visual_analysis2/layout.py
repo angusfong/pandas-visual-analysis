@@ -3,12 +3,12 @@ import uuid
 
 from ipywidgets import widgets
 
-from pandas_visual_analysis.data_source import DataSource, SelectionType
-from pandas_visual_analysis.utils.config import Config
-from pandas_visual_analysis.widgets import BaseWidget
-from pandas_visual_analysis.widgets.registry import WidgetClassRegistry
-from pandas_visual_analysis.utils.util import text_color
-import pandas_visual_analysis.utils.validation as validate
+from pandas_visual_analysis2.data_source import DataSource, SelectionType
+from pandas_visual_analysis2.utils.config import Config
+from pandas_visual_analysis2.widgets import BaseWidget
+from pandas_visual_analysis2.widgets.registry import WidgetClassRegistry
+from pandas_visual_analysis2.utils.util import text_color
+import pandas_visual_analysis2.utils.validation as validate
 
 
 class AnalysisLayout:
@@ -37,7 +37,7 @@ class AnalysisLayout:
         :param row_height: Height in pixels each row should have. If given an integer, each row has the height
             specified by that value, if given a list of integers, each value in the list specifies the height of
             the corresponding row.
-        :param data_source: The :class:`pandas_visual_analysis.data_source.DataSource` object passed to the widgets
+        :param data_source: The :class:`pandas_visual_analysis2.data_source.DataSource` object passed to the widgets
             in that layout.
         """
         super().__init__(*args, **kwargs)
