@@ -5,8 +5,8 @@ from blinker import Signal
 from pandas import DataFrame
 import pandas as pd
 
-import pandas_visual_analysis2.utils.validation as validate
-from pandas_visual_analysis2.utils.column_store import ColumnStore
+import pandas_visual_analysis.utils.validation as validate
+from pandas_visual_analysis.utils.column_store import ColumnStore
 
 
 class SelectionType(Enum):
@@ -176,7 +176,7 @@ class DataSource:
     def data(self) -> DataFrame:
         """
 
-        :return: The DataFrame for this :class:`pandas_visual_analysis2.data_source.DataSource` object.
+        :return: The DataFrame for this :class:`pandas_visual_analysis.data_source.DataSource` object.
         """
         return self._df
 

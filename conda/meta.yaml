@@ -28,7 +28,7 @@ requirements:
 
 test:
   imports:
-    - pandas_visual_analysis2
+    - pandas_visual_analysis
 
 about:
   home: {{ data['url'] }}

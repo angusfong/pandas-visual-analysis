@@ -1,6 +1,6 @@
 import pytest
 
-from pandas_visual_analysis2.utils.config import Config
+from pandas_visual_analysis.utils.config import Config
 
 
 def test_config_store_and_get():

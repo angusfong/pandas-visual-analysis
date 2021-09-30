@@ -3,7 +3,7 @@ from .layout import AnalysisLayout
 from .visual_analysis import VisualAnalysis
 
 # Import Widgets so that they get registered
-import pandas_visual_analysis2.widgets
+import pandas_visual_analysis.widgets
 
 
 import plotly.io as pio

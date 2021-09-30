@@ -1,6 +1,6 @@
 from typing import Set, List
 
-from pandas_visual_analysis2.utils.util import Singleton
+from pandas_visual_analysis.utils.util import Singleton
 
 
 class WidgetClassRegistry(object, metaclass=Singleton):

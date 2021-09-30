@@ -2,7 +2,7 @@ import time
 
 import pytest
 
-from pandas_visual_analysis2.utils.util import (
+from pandas_visual_analysis.utils.util import (
     hex_to_rgb,
     compare_lists,
     timing,

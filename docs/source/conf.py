@@ -16,7 +16,7 @@ import sys
 sys.path.insert(0, os.path.abspath("./../../src/"))
 # sys.path.insert(0, os.path.join("..", "..", "src"))
 
-from pandas_visual_analysis2.version import __version__
+from pandas_visual_analysis.version import __version__
 
 # -- Project information -----------------------------------------------------
 

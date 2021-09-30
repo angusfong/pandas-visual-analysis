@@ -1,12 +1,12 @@
 import ipywidgets as widgets
 import plotly.graph_objs as go
 
-from pandas_visual_analysis2 import DataSource
-from pandas_visual_analysis2.utils.config import Config
-from pandas_visual_analysis2.widgets.base_widget import BaseWidget
-from pandas_visual_analysis2.widgets.registry import register_widget
+from pandas_visual_analysis import DataSource
+from pandas_visual_analysis.utils.config import Config
+from pandas_visual_analysis.widgets.base_widget import BaseWidget
+from pandas_visual_analysis.widgets.registry import register_widget
 
-MAX_DOT_SIZE = 1000
+MAX_DOT_SIZE = 10
 
 @register_widget
 class ScatterWidget(BaseWidget):
@@ -27,7 +27,7 @@ class ScatterWidget(BaseWidget):
     ):
         """
 
-        :param data_source: :class:`pandas_visual_analysis2.data_source.DataSource` for the widget.
+        :param data_source: :class:`pandas_visual_analysis.data_source.DataSource` for the widget.
         :param row: The row the widget is in.
         :param index: Index of the row the widget is in.
         :param relative_size: The space the widget has in a row which is then converted to the width. (e.g. 0.33 => 33%)

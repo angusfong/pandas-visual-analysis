@@ -2,11 +2,11 @@ import pytest
 from unittest.mock import ANY, Mock, call
 from ipywidgets import widgets
 
-from pandas_visual_analysis2.layout import AnalysisLayout
-from pandas_visual_analysis2.data_source import DataSource, SelectionType
-from pandas_visual_analysis2.utils.config import Config
-from pandas_visual_analysis2.widgets import WidgetClassRegistry
-from pandas_visual_analysis2.widgets.scatter import ScatterWidget
+from pandas_visual_analysis.layout import AnalysisLayout
+from pandas_visual_analysis.data_source import DataSource, SelectionType
+from pandas_visual_analysis.utils.config import Config
+from pandas_visual_analysis.widgets import WidgetClassRegistry
+from pandas_visual_analysis.widgets.scatter import ScatterWidget
 from tests import sample_dataframes
 
 df_size = 1000

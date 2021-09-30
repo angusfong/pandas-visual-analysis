@@ -1,6 +1,6 @@
 import pytest
 
-from pandas_visual_analysis2.widgets.helpers.multi_select import MultiSelectWidget
+from pandas_visual_analysis.widgets.helpers.multi_select import MultiSelectWidget
 
 
 @pytest.fixture(scope="module")

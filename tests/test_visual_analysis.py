@@ -1,6 +1,6 @@
 import pytest
 
-from pandas_visual_analysis2 import VisualAnalysis, DataSource
+from pandas_visual_analysis import VisualAnalysis, DataSource
 from tests import sample_dataframes
 
 

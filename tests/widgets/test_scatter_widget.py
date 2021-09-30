@@ -1,9 +1,9 @@
 import pytest
 import numpy as np
 
-from pandas_visual_analysis2 import DataSource
-from pandas_visual_analysis2.utils.config import Config
-from pandas_visual_analysis2.widgets import ScatterWidget
+from pandas_visual_analysis import DataSource
+from pandas_visual_analysis.utils.config import Config
+from pandas_visual_analysis.widgets import ScatterWidget
 from tests import sample_dataframes
 
 

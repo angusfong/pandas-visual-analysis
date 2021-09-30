@@ -3,10 +3,10 @@ from copy import deepcopy
 import pytest
 import ipywidgets as widgets
 
-from pandas_visual_analysis2 import DataSource
-from pandas_visual_analysis2.data_source import SelectionType
-from pandas_visual_analysis2.utils.config import Config
-from pandas_visual_analysis2.widgets import ParallelCoordinatesWidget
+from pandas_visual_analysis import DataSource
+from pandas_visual_analysis.data_source import SelectionType
+from pandas_visual_analysis.utils.config import Config
+from pandas_visual_analysis.widgets import ParallelCoordinatesWidget
 from tests import sample_dataframes
 
 

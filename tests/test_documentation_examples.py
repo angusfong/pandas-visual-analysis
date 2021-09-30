@@ -16,7 +16,7 @@ def mpg_df():
 
 
 def test_default(mpg_df):
-    from pandas_visual_analysis2 import VisualAnalysis
+    from pandas_visual_analysis import VisualAnalysis
 
     df = mpg_df
 
@@ -24,7 +24,7 @@ def test_default(mpg_df):
 
 
 def test_with_data_source(mpg_df):
-    from pandas_visual_analysis2 import VisualAnalysis, DataSource
+    from pandas_visual_analysis import VisualAnalysis, DataSource
 
     df = mpg_df
 
@@ -33,7 +33,7 @@ def test_with_data_source(mpg_df):
 
 
 def test_with_cat_cols(mpg_df):
-    from pandas_visual_analysis2 import VisualAnalysis
+    from pandas_visual_analysis import VisualAnalysis
 
     df = mpg_df
 
@@ -43,7 +43,7 @@ def test_with_cat_cols(mpg_df):
 
 
 def test_widget_list_output_against_documentation():
-    from pandas_visual_analysis2 import VisualAnalysis
+    from pandas_visual_analysis import VisualAnalysis
 
     lst = [
         "Scatter",
@@ -61,13 +61,13 @@ def test_widget_list_output_against_documentation():
 
 
 def test_visual_analysis_row_height(mpg_df):
-    from pandas_visual_analysis2 import VisualAnalysis
+    from pandas_visual_analysis import VisualAnalysis
 
     VisualAnalysis(mpg_df, row_height=300)
 
 
 def test_visual_analysis_row_height_list(mpg_df):
-    from pandas_visual_analysis2 import VisualAnalysis
+    from pandas_visual_analysis import VisualAnalysis
 
     VisualAnalysis(
         mpg_df,
@@ -77,7 +77,7 @@ def test_visual_analysis_row_height_list(mpg_df):
 
 
 def test_visual_analysis_sample(mpg_df):
-    from pandas_visual_analysis2 import VisualAnalysis
+    from pandas_visual_analysis import VisualAnalysis
 
     va = VisualAnalysis(mpg_df, sample=100)
 
@@ -85,6 +85,6 @@ def test_visual_analysis_sample(mpg_df):
 
 
 def test_visual_analysis_alpha(mpg_df):
-    from pandas_visual_analysis2 import VisualAnalysis
+    from pandas_visual_analysis import VisualAnalysis
 
     VisualAnalysis(mpg_df, select_color="#323EEC", deselect_color="#8A8C93", alpha=0.75)
