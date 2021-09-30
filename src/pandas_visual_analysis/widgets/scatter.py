@@ -1,11 +1,14 @@
 import ipywidgets as widgets
 import plotly.graph_objs as go
 
+import numpy as np
+
 from pandas_visual_analysis import DataSource
 from pandas_visual_analysis.utils.config import Config
 from pandas_visual_analysis.widgets.base_widget import BaseWidget
 from pandas_visual_analysis.widgets.registry import register_widget
 
+MAX_DOT_SIZE = 10
 
 @register_widget
 class ScatterWidget(BaseWidget):
@@ -129,8 +132,11 @@ class ScatterWidget(BaseWidget):
                 ]
             if "size" in axis:
                 if self.size_selection.value != "None":
-                    self.figure_widget.data[0].marker["size"] = self.data_source.data[
+                    sizes = self.data_source.data[
                         self.size_selection.value
                     ]
+                    max_size = np.max(sizes)
+                    normalized_sizes = sizes / max_size * MAX_DOT_SIZE
+                    self.figure_widget.data[0].marker["size"] = normalized_sizes
                 else:
                     self.figure_widget.data[0].marker["size"] = None
