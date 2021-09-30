@@ -6,7 +6,7 @@ from pandas_visual_analysis2.utils.config import Config
 from pandas_visual_analysis2.widgets.base_widget import BaseWidget
 from pandas_visual_analysis2.widgets.registry import register_widget
 
-MAX_DOT_SIZE = 10
+MAX_DOT_SIZE = 30
 
 @register_widget
 class ScatterWidget(BaseWidget):
